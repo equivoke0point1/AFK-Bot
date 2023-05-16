@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "discord.js": "^14.7.1",
+    "mcapi": "^1.0.1",
+    "mineflayer": "^4.8.1",
+    "mineflayer-item-map-downloader": "^1.1.1",
+    "mineflayer-pathfinder": "^2.4.3",
+    "mineflayer-tps": "^1.0.1",
+    "node-fetch": "^1.7.3",
+    "pngjs-image": "^0.11.7",
+    "prismarine-viewer": "^1.25.0",
+    "undefined": "^0.1.0",
+    "unirest": "^0.6.0",
+    "webhook-discord": "^3.7.8"
+  },
+  "name": "hydra-bot",
+  "version": "1.0.0",
+  "description": "Hydra's Minecraft bot.",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "equivoke, dazed68",
+  "license": "ISC"
+}
