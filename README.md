@@ -1,2 +1,2 @@
-# DogeclubBot
+# AFK Minecraft bot
  
