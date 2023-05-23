@@ -1,5 +1,5 @@
 
-const pngjs = require('pngjs-image');
+const pngjs = require('pngjs-image'); // этот файл предназначен для прохождения капчи с картой в руке, не знаю как она работает, но раньше было норм
 const colors = require('./colors.json')
 const config = require("./config/config.json");
 
@@ -25,8 +25,8 @@ function getMapImage(data) {
 	image.writeImage(`${__dirname}/assets/captha.png`, function(err) {
 		if (err) throw err;
 		form.append('file1', fs.createReadStream(`${__dirname}/assets/captha.png`)); // give absolute path if possible
-		var URL = config.discordPrefix;
-
+		let URL = `${config.discordWebhook}`;
+		// при прописывании без кавычек он определяет вебхук по другому и post не работает нихера хд
 		fetch(URL, {
 			'method': 'POST',
 			'body': form,

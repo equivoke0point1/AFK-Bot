@@ -26,15 +26,17 @@
   "book": false,
   "viewDistance": "20",
 
-  "name": "HighLand_Bot",
-  "ip": "highland.20tps.ru",
+  "name": "имя бота",
+  "password": "123123123№21",
+  "ip": "айпи сервера для захода (без порта!)",
   "port": 25565,
-  "version": "1.19.3",
+  "version": "1.19.4",
   "needCaptcha": false,
   "pathFinding": true,
+  "silentMode": false,
 
-  "discordWebhook": "https://discordapp.com/api/webhooks/1098588120460570654/MS7wFSHeD2Obf5LgpTESKRby8-c6h7kdTCqMAVltZvfG37J7bsowxZHiWriVjidAQr-S",
-  "discordToken":"MTA1OTgzMTYzODk4MjM5Nzk2Mg.GWi4kj.Vr9T7MKs-bOAoswecGA2O4RsowUgnfgOy-mWGc",
+  "discordWebhook": "ваш вебхук",
+  "discordToken":"токен вашего дискорд бота (брать с Discord Developer Portal после регистрации приложения, там создаем к приложению бота)",
   "discordPrefix":"!",
-  "channelID": "1098588102357958706"
+  "channelID": "айди канала, куда бот будет перенаправлять сообщения, и откуда принимать команды с !"
 }
