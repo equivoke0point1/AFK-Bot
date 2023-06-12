@@ -15,14 +15,5 @@
     "webhook-discord": "^3.7.8",
     "underscore": ">=1.12.1"
     "socket.io-parser": ">=4.2.3"
-  },
-  "name": "hydra-bot",
-  "version": "1.0.0",
-  "description": "Hydra's Minecraft bot.",
-  "main": "entry.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "equivoke, dazed68",
-  "license": "ISC"
+  }
 }
